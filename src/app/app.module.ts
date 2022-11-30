@@ -29,7 +29,7 @@ const myRoute:Routes=[
     component:ViewCourseComponent
   },
   {
-    path:"friend",
+    path:"viewfriend",
     component:ViewFriendComponent
   },
   {
@@ -39,6 +39,10 @@ const myRoute:Routes=[
   {
     path:"addfriend",
     component:AddFriendComponent
+  },
+  {
+    path:"emplogin",
+    component:EmpLoginComponent
   }
 ]
 
