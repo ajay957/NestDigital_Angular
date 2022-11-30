@@ -14,6 +14,7 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { FormsModule } from '@angular/forms';
 import { AddFriendComponent } from './add-friend/add-friend.component';
 import { EmpLoginComponent } from './emp-login/emp-login.component';
+import { EmpRegComponent } from './emp-reg/emp-reg.component';
 
 const myRoute:Routes=[
   {
@@ -39,6 +40,14 @@ const myRoute:Routes=[
   {
     path:"addfriend",
     component:AddFriendComponent
+  },
+  {
+    path:"emplogin",
+    component:EmpLoginComponent
+  },
+  {
+    path:"empreg",
+    component:EmpRegComponent
   }
 ]
 
@@ -53,6 +62,7 @@ const myRoute:Routes=[
     AddCourseComponent,
     AddFriendComponent,
     EmpLoginComponent,
+    EmpRegComponent,
   ],
   imports: [
     BrowserModule,
