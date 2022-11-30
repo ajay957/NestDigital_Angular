@@ -17,6 +17,9 @@ export class EmpLoginComponent {
     if(this.empid=="1122" && this.password=="12345"){
       this.route.navigate(['/addcourse'])
     }
+    else{
+      alert("empid or password is wrong")
+    }
   }
 
 }
