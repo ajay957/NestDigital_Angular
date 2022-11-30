@@ -13,6 +13,7 @@ import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { AddCourseComponent } from './add-course/add-course.component';
 import { FormsModule } from '@angular/forms';
 import { AddFriendComponent } from './add-friend/add-friend.component';
+import { EmpLoginComponent } from './emp-login/emp-login.component';
 
 const myRoute:Routes=[
   {
@@ -51,6 +52,7 @@ const myRoute:Routes=[
     ViewFriendComponent,
     AddCourseComponent,
     AddFriendComponent,
+    EmpLoginComponent,
   ],
   imports: [
     BrowserModule,
