@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-4">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" *ngFor="let i of data">
+                    <h1 class="text-center"><u>View Friends</u></h1>
+                    <div class="card">
+                        <img src="https://post.psychcentral.com/wp-content/uploads/sites/4/2022/05/group-of-young-adults-diverse-friends-732x549-thumbnail.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">{{i.friendName}}</h5>
+                          <p class="card-text">{{i.name}}</p>
+                          <p class="card-text">{{i.DescribeYourFriend}}</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

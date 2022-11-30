@@ -9,6 +9,7 @@ import { AdminComponent } from './admin/admin.component';
 import { AdminNavbarComponent } from './admin-navbar/admin-navbar.component';
 import { ViewCourseComponent } from './view-course/view-course.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ViewFriendComponent } from './view-friend/view-friend.component';
 
 const myRoute:Routes=[
   {
@@ -22,6 +23,10 @@ const myRoute:Routes=[
   {
     path:"course",
     component:ViewCourseComponent
+  },
+  {
+    path:"friend",
+    component:ViewFriendComponent
   }
 ]
 
@@ -31,7 +36,8 @@ const myRoute:Routes=[
     WebPageComponent,
     AdminComponent,
     AdminNavbarComponent,
-    ViewCourseComponent
+    ViewCourseComponent,
+    ViewFriendComponent
   ],
   imports: [
     BrowserModule,
