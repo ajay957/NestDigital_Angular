@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { AddCourseComponent } from './add-course/add-course.component';
 import { FormsModule } from '@angular/forms';
+import { AddFriendComponent } from './add-friend/add-friend.component';
 
 const myRoute:Routes=[
   {
@@ -33,6 +34,10 @@ const myRoute:Routes=[
   {
     path:"addcourse",
     component:AddCourseComponent
+  },
+  {
+    path:"addfriend",
+    component:AddFriendComponent
   }
 ]
 
@@ -45,6 +50,7 @@ const myRoute:Routes=[
     ViewCourseComponent,
     ViewFriendComponent,
     AddCourseComponent,
+    AddFriendComponent,
   ],
   imports: [
     BrowserModule,
