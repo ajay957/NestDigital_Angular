@@ -49,7 +49,8 @@ const myRoute:Routes=[
   {
     path:"empreg",
     component:EmpRegComponent
-  }
+  },
+  
 ]
 
 @NgModule({
